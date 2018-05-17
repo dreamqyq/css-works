@@ -1,0 +1,48 @@
+body
+{
+    text-align: center;
+}
+.taiji
+{
+    position: relative;
+
+    width: 98px;
+    height: 196px;
+    margin: 40px auto;
+
+    border-width: 2px 100px 2px 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 50%;
+    background: #fff;
+}
+.taiji::before
+{
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 30px;
+    height: 30px;
+
+    content: '';
+
+    border: 34px solid #fff;
+    border-radius: 50%;
+    background: #000;
+}
+.taiji::after
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 30px;
+    height: 30px;
+
+    content: '';
+
+    border: 34px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
