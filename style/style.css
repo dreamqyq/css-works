@@ -2,6 +2,14 @@ body
 {
     text-align: center;
 }
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .taiji
 {
     position: relative;
@@ -15,6 +23,12 @@ body
     border-color: #000;
     border-radius: 50%;
     background: #fff;
+
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 .taiji::before
 {
