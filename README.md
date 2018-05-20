@@ -1,7 +1,7 @@
-# css-works
+ï»¿# css-works
 
 Some interesting CSS works.
 
 ### list
-- Ò»¸±ÎŞÏŞĞı×ªµÄÌ«¼«Í¼
+- ä¸€å‰¯æ— é™æ—‹è½¬çš„å¤ªæå›¾
 
