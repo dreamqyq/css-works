@@ -126,7 +126,7 @@ body{
   overflow:hidden;
 }
 .lowerLip::after{
-  content:'s';
+  content:'';
   width:100px;
   height:95px;
   border-radius:60px/40px;
