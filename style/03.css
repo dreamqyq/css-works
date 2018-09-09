@@ -1,4 +1,6 @@
 *{margin:0;padding:0;box-sizing:border-box;transition:all .3s;}
+*::after{box-sizing:border-box;}
+*::before{box-sizing:border-box;}
 body{
   height:100vh;
   display:flex;
@@ -192,7 +194,7 @@ body{
   border-radius:5px;
   top:10px; 
   left:50%;
-  margin-left:-28px;
+  margin-left:-26px;
 }
 .hole{
   position:absolute;
@@ -276,14 +278,13 @@ body{
   width:130px;
   border-right:transparent;
   transform:rotateZ(50deg);
-  left:-85px;
-  top:-47px;
+  left:20px;
+  top:153px;
 }
 .arm.right{
   width:100px;
-  z-index:-1;
-  right:-68px;  
-  top:25px;
+  right:32px;  
+  top:225px;
   transform:rotateZ(30deg);
 }
 .arm::after{
@@ -323,7 +324,7 @@ body{
 .body::after{
   content:'';
   position:absolute;
-  width:40px;
+  width:45px;
   height:20px;
   background:#fff;
   border:2px solid #000;
@@ -331,5 +332,5 @@ body{
   border-radius:50% 50% 0 0;
   left:0;right:0;
   margin:0 auto;
-  bottom:-10px;
+  bottom:-11px;
 }
