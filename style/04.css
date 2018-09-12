@@ -1,0 +1,49 @@
+h1{
+  color: #07AAF5;
+}
+body{
+  padding: 0 10px;
+}
+hr{
+  background: #07AAF5;
+  height:1px;
+  width: 95%;
+  margin:5px auto;
+  border: none;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+header h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+header .nameBox *{
+  margin: 4px 0;
+}
+header .nameBox{
+  text-align: center;
+}
+header .nameBox span{
+  color: #07AAF5;
+  font-weight: bold;
+  display: inline-block;
+  margin:0 0.5em;
+}
+header img{
+  height:150px;
+  position: absolute;
+  right: 67px;
+}
+section{
+  padding: 0 20px;
+}
+h1{
+  margin: 5px 20px;
+}
+a{
+  color: rgb(8, 110, 226);
+}
